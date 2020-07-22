@@ -44,6 +44,8 @@
                             <br><br><br>
                             <p class="font-weight-bold pl-2">Developer Student Club</p>
                             <p class="text-center pr-5">2019</p>
+                            <p class="font-weight-bold pl-5 ml-1 mt-5">Dicoding</p>
+                            <p class="text-center pr-5">2019</p>
                         </div>
                         <div class="col-8 mt-5 pt-2">
                             <p class="font-weight-bold" style="padding-top:4px;">Rekayasa Perangkat Lunak</p>
