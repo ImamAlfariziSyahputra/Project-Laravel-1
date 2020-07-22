@@ -1,0 +1,38 @@
+
+.nav-link:hover {
+    background-color: #22A39F;
+}
+
+.content {
+    background-color: #f3efe0;
+}
+.judul {
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+    color: #22A39F;
+}
+.subjudul {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #22A39F;
+}
+.sidebar {
+    background-color: 	#0e1111;
+    height: 580px;
+}
+.content {
+    height: 580px;
+}
+/* .card-body {
+    background-color: #34dbd6;
+} */
+p {
+    margin-bottom: 0px;
+}
+.p {
+    color: #434242;
+}
+.thumb {
+    padding: 20px;
+    margin-left: 20px;
+}
