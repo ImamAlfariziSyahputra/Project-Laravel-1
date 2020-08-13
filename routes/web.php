@@ -41,6 +41,9 @@ Route::get('/siswa/{nipd}', function ($nipd) {
     return "NIPD Siswa : $nipd";
 })->where('nipd', '[A-Z]{2}[0-9]');
 
+Route::get('/siswa', 'SiswaController@index');
+Route::get('/simpansiswa','SiswaController@insertSiswa');
+
 Route::fallback(function(){
     return 'Salah';
 });
