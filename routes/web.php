@@ -44,6 +44,13 @@ Route::get('/siswa/{nipd}', function ($nipd) {
 Route::get('/siswa', 'SiswaController@index');
 Route::get('/simpansiswa','SiswaController@insertSiswa');
 
+Route::get('/cekkoneksiguru','GuruController@cekKoneksi');
+Route::get('/simpanguru','GuruController@simpanGuru');
+Route::get('/updateguru','GuruController@updateGuru');
+Route::get('/deleteguru','GuruController@deleteGuru');
+Route::get('/getallguru','GuruController@getAllGuru');
+Route::get('/getgurubyid','GuruController@getGuruById');
+
 Route::fallback(function(){
     return 'Salah';
 });
